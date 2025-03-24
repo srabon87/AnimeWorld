@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer sm:footer-horizontal text-white bg-black p-10">
+      <footer className="footer sm:footer-horizontal text-white bg-slate-700 p-20">
         <aside>
           <img className="rounded-3xl w-[90px]" src="/src/assets/Black Kawaii Illustration Gaming Logo.png" alt="" />
           <p>

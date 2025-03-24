@@ -3,12 +3,12 @@ import React from "react";
 const MeaningSection = () => {
   return (
     <div className="mb-8 items-center">
-      <h2 className="text-4xl mt-16 font-serif text-center font-bold">
+      <h2 className="md:text-4xl sm:text-2xl mt-16 font-serif text-center font-bold">
         📢Why You Should Visit AnimeWorld?
       </h2>
       <div className="w-8/12 mx-auto flex md:flex-row sm:fles-col justify-evenly my-32 items-center">
-        <div className="text-start">
-          <p className="text-2xl font-semibold font-sans w-9/12">
+        <div className="md:text-start">
+          <p className="text-xl font-semibold font-sans w-9/12">
             At AnimeWorld, we bring you a one-stop destination for all things
             anime! Whether you're an anime enthusiast or just starting your
             journey, our platform offers a rich variety of features that will
@@ -23,7 +23,7 @@ const MeaningSection = () => {
         </div>
         <div>
           <img
-            className="w-[2700px] h-[300px]"
+            className="w-[2500px] h-[250px]"
             src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f9ed4816-c11c-48b1-9f8e-00c3a5ade0a8/dewzsjo-0581130f-c95f-40d2-a1dd-618c9572670a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y5ZWQ0ODE2LWMxMWMtNDhiMS05ZjhlLTAwYzNhNWFkZTBhOFwvZGV3enNqby0wNTgxMTMwZi1jOTVmLTQwZDItYTFkZC02MThjOTU3MjY3MGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AZ0j7b8vuetmVrBnrM5aanJRc4gbyPA8CKMDghH1aKA"
             alt=""
           />

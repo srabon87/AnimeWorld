@@ -13,13 +13,12 @@ import slide7 from "../../assets/AnimeSliders/demon-slayer-kimetsu-no-yaiba.avif
 import slide8 from "../../assets/AnimeSliders/code-geass-lelouch-of-the-rebellion-2006.avif";
 import slide9 from "../../assets/AnimeSliders/one-punch-man-tv-series-poster.avif";
 import slide10 from "../../assets/AnimeSliders/81uQQjetXXL.jpg";
-import { LucidePenLine } from "lucide-react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 const Category = () => {
   return (
-    <section className="w-10/12 mx-auto pt-10">
-      <h2 className="text-center font-bold text-5xl text-cyan-700">
+    <section className="w-10/12 mx-auto pt-10 ">
+      <h2 className="text-center font-bold sm:text-2xl md:text-4xl text-cyan-700">
         Explore Your Favourite Anime Category Wise:
       </h2>
 
@@ -31,7 +30,7 @@ const Category = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper mb-24 mt-20 w-[1600px]"
+        className="mySwiper mb-24 mt-20 md:w-[1200px] sm:w-[800px]"
       >
         <SwiperSlide>
           <img src={slide1} alt="" />
@@ -65,8 +64,8 @@ const Category = () => {
         </SwiperSlide>
       </Swiper>
       <div className="items-center text-center">
-        <Link to="/animelist">
-            <a className="btn w-[200px] h-[70px] rounded-4xl text-2xl btn-soft btn-success">For More <FaArrowRight /></a>
+        <Link to="/animelist" className="btn btn-soft btn-success w-2xs h-14 rounded-4xl text-xl">
+            For More <FaArrowRight />
         </Link>
       </div>
     </section>
